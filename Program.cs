@@ -49,9 +49,7 @@ public partial class Program
     });
 
   using (var db = new TinyApiContext())
-    {
-      db.Database.EnsureCreated();
-    }
+    
 
     app.Run();
   }
